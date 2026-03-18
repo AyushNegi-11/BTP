@@ -1,0 +1,40 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual Environments
+venv/
+.venv/
+venv310/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# Environment variables / Secrets
+.env
+.env.*
+
+# Chroma DB storages
+chroma_db/
+chroma_db_app/
+
+# Extracted images directory
+extracted_images/
+
+# Streamlit
+.streamlit/
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# IDEs
+.vscode/
+.idea/
+
+# Potential temporary data
+*.pdf
+# Exception for sample.pdf if you want to keep it in the repo
+!sample.pdf
